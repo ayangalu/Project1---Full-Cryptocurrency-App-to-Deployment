@@ -1,0 +1,46 @@
+.success {
+  color: green;
+}
+.danger {
+  color: red;
+}
+.icon-url {
+  width: 1rem;
+}
+.card-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+img {
+  width: 100%;
+}
+.news-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.news-image {
+  width: 4rem;
+}
+.news-bottom {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 0.5rem
+}
+.space-align{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+.space-align-text {
+  display: flex;
+  gap: 1rem;
+}
+.header-flex {
+  display: flex;
+  justify-content: center;
+}
